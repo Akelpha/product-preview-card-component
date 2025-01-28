@@ -9,5 +9,14 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
   }
 }
