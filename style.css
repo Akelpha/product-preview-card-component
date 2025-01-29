@@ -3,8 +3,6 @@
 @theme {
   --font-sans: "Montserrat", sans-serif;
   --font-serif: "Fraunces", serif;
-  --font-size-paragraph: 14px;
-  --size-attribution: 11px;
   --color-dark-cyan: oklch(0.45 0.15 145);
   --color-cream: oklch(0.95 0.05 85);
   --color-very-dark-blue: oklch(0.15 0.05 255);
