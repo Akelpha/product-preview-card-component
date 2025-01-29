@@ -1,1 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+@theme {
+  --font-sans: "Montserrat", sans-serif;
+  --font-serif: "Fraunces", serif;
+  --font-size-paragraph: 14px;
+  --size-attribution: 11px;
+  --color-dark-cyan: oklch(0.45 0.15 145);
+  --color-cream: oklch(0.95 0.05 85);
+  --color-very-dark-blue: oklch(0.15 0.05 255);
+  --color-dark-grayish-blue: oklch(0.55 0.05 220);
+  --color-white: oklch(1 0 0);
+  --color-attribution: oklch(0.65 0.15 255);
+}
