@@ -12,34 +12,52 @@
 </head>
 
 <body class="bg-cream">
-  <section class="flex items-center ">
-    <picture>
-      <source media="(min-width: 1024px)" srcset="images\image-product-desktop.jpg">
-      <source media="(min-width: 768px)" srcset="images\image-product-desktop.jpg">
-      <img src="images\image-product-mobile.jpg" alt="Perfume">
-    </picture>
-    <div class="bg-white">
-      <p class="text-[14px]">Perfume</p>
 
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p class="text-[14px]">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.</p>
+  <div class=" flex items-center justify-center w-screen h-screen flex-col gap-[50px]">
+    <section class="flex max-w-xl">
+      <div class="w-1/2">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="images\image-product-desktop.jpg">
+          <source media="(min-width: 768px)" srcset="images\image-product-desktop.jpg">
+          <img src="images\image-product-mobile.jpg" alt="Perfume" class="rounded-l-lg w-full h-full object-cover">
+        </picture>
+      </div>
 
-      <p>$149.99</p>
-      <p>$169.99</p>
-      <button type="button" class=""> Add to Cart</button>
+      <div class="bg-white rounded-r-lg w-1/2 p-8 ">
+        <p class="text-[14px] tracking-[5px] uppercase pb-1.5 text-dark-grayish-blue">Perfume</p>
+
+        <h1 class="font-serif font-bold text-[30px] text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-[14px] text-dark-grayish-blue mt-2 mb-2">A floral, solar and voluptuous interpretation
+          composed by Olivier
+          Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center gap-6 mt-3 mb-3">
+          <p class="text-[30px] text-dark-cyan font-bold font-serif">$149.99</p>
+          <p class="line-through  text-dark-grayish-blue">$169.99</p>
+        </div>
+
+        <button type="button"
+          class="bg-dark-cyan rounded-lg flex items-center justify-center gap-2 w-full h-12 text-white font-medium">
+          <span>
+            <img src="images/icon-cart.svg" alt="icon-cart">
+          </span>Add to
+          Cart
+        </button>
+      </div>
+
+    </section>
+
+
+    <div class="text-center text-[11px] w-full">
+      <p>Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener"
+          class="text-attribution">Frontend Mentor</a> Coded by <a href="https://www.frontendmentor.io/profile/Akelpha"
+          class="text-attribution">Akelpha</a>
+      </p>
     </div>
-
-  </section>
-
-
-  <div class="text-center text-[11px] w-full">
-    <p>Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener"
-        class="text-attribution">Frontend Mentor</a> Coded by <a href="https://www.frontendmentor.io/profile/Akelpha"
-        class="text-attribution">Akelpha</a>
-    </p>
   </div>
+
 </body>
 
 </html>
