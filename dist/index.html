@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32-DQjEQYWa.png">
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-4857aCkJ.css">
+</head>
+
+<body class="bg-cream">
+  <div
+    class="flex items-center justify-center w-screen h-screen flex-col gap-[20px] sm:gap-[50px] py-[20px] px-4 sm:px-0">
+    <section class="flex max-w-sm flex-col sm:flex-row sm:max-w-xl mx-auto w-full">
+      <div class="w-full h-auto sm:w-1/2">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="/assets/image-product-desktop-BjYfQaQN.jpg">
+          <source media="(min-width: 768px)" srcset="/assets/image-product-desktop-BjYfQaQN.jpg">
+          <img src="/assets/image-product-mobile-DjztVtzL.jpg" alt="Perfume"
+            class="rounded-t-lg sm:rounded-tr-none sm:rounded-l-lg w-full h-full object-cover">
+        </picture>
+      </div>
+
+      <div class="bg-white rounded-b-lg sm:rounded-bl-none sm:rounded-r-lg w-full sm:w-1/2 p-8 ">
+        <p class="text-[14px] tracking-[5px] uppercase pb-1.5 text-dark-grayish-blue">Perfume</p>
+
+        <h1 class="font-serif font-bold text-[30px] text-very-dark-blue">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-[14px] text-dark-grayish-blue mt-2 mb-2">A floral, solar and voluptuous interpretation
+          composed by Olivier
+          Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="flex items-center gap-6 mt-3 mb-3">
+          <p class="text-[30px] text-dark-cyan font-bold font-serif ">$149.99</p>
+          <p class="line-through  text-dark-grayish-blue">$169.99</p>
+        </div>
+
+        <button type="button"
+          class="bg-dark-cyan rounded-lg flex items-center justify-center gap-2 w-full h-12 text-white font-medium hover:bg-very-dark-cyan">
+          <span>
+            <img src="data:image/svg+xml,%3csvg%20width='15'%20height='16'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.383%2010.388a2.397%202.397%200%200%200-1.518-2.222l1.494-5.593a.8.8%200%200%200-.144-.695.8.8%200%200%200-.631-.28H2.637L2.373.591A.8.8%200%200%200%201.598%200H0v1.598h.983l1.982%207.4a.8.8%200%200%200%20.799.59h8.222a.8.8%200%200%201%200%201.599H1.598a.8.8%200%201%200%200%201.598h.943a2.397%202.397%200%201%200%204.507%200h1.885a2.397%202.397%200%201%200%204.331-.376%202.397%202.397%200%200%200%201.12-2.021ZM11.26%207.99H4.395L3.068%203.196h9.477L11.26%207.991Zm-6.465%206.392a.8.8%200%201%201%200-1.598.8.8%200%200%201%200%201.598Zm6.393%200a.8.8%200%201%201%200-1.598.8.8%200%200%201%200%201.598Z'%20fill='%23FFF'/%3e%3c/svg%3e" alt="icon-cart">
+          </span>Add to
+          Cart
+        </button>
+      </div>
+
+    </section>
+
+
+    <div class="text-center text-[11px] w-full">
+      <p>Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener"
+          class="text-attribution">Frontend Mentor</a> Coded by <a href="https://www.frontendmentor.io/profile/Akelpha"
+          class="text-attribution">Akelpha</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+
+</html>
